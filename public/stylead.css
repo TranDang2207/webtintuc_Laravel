@@ -1,0 +1,48 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    height: 250px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+header>.logo{
+    width: 100%;
+    margin-left: 50px;
+    font-size: 100px;
+    text-align: center;
+    height: 25%;
+}
+header>.logo>a{
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header>.slogan{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+nav{
+    height: 70px;
+}
+main{
+    min-height: 600px;
+    position: relative;
+}
+article{
+    min-height: 600px;
+}
+article p{
+    font-size: 30px;
+    margin-left: 40px;
+}
+aside{
+    min-height: 600px;
+    background-color: yellow;
+}
+footer{
+    height: 70px;
+}

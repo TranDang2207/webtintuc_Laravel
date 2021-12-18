@@ -1,0 +1,88 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    height: 270px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+header>.logo{
+    width: 100%;
+    margin-left: 50px;
+    font-size: 100px;
+    text-align: center;
+    height: 45%;
+}
+header>.logo>a{
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header>.slogan{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+header>.frmlogin{
+    width: 25%;
+    border-radius: 0 0 0 80px;
+    height: 25%;
+}
+header>.frmlogin>.register{
+    width: 40%;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+header>.frmlogin>.register>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border: 1px solid black;
+    background-color: black;
+    
+}
+header>.frmlogin>.login{
+    width: 45%;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+header>.frmlogin>.login>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border: 1px solid black;
+    background-color: black;
+    
+}
+header>.frmlogin>.register>a:hover, header>.frmlogin>.login>a:hover{
+    background-color: white;
+    color: black;
+}
+nav{
+    height: 70px;
+    background-color: green;
+}
+main{
+    height: 600px;
+    position: relative;
+}
+article{
+    height: 600px;
+}
+article p{
+    font-size: 30px;
+    margin-left: 40px;
+}
+aside{
+    height: 600px;
+    background-color: yellow;
+}
+footer{
+    height: 70px;
+}
